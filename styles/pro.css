@@ -1,5 +1,145 @@
 /*  Mulish */
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800&display=swap');
-*{
+
+* {
     font-family: 'Mulish', sans-serif;
+}
+
+.nav-title {
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: #131318;
+}
+
+nav {
+    padding: 50px 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0;
+
+}
+
+nav>ul {
+    display: flex;
+
+
+}
+
+nav li {
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #424247;
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+span {
+    color: #FF5400;
+    font-weight: 800;
+}
+
+/* main */
+.banner-pic {
+    max-width: 100%;
+    height: auto;
+    border-radius: 1rem;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+    margin: 146px 135px;
+    margin-top: 0;
+}
+
+.banner-title {
+    position: absolute;
+    color: #FFF;
+    font-size: 4rem;
+    font-weight: 800;
+    text-align: center;
+    margin: 146px 135px;
+    padding: 0px 287px 0px;
+
+
+
+
+
+}
+
+.banner-description {
+    position: absolute;
+    color: #FFF;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 210px 247px 238px 247px;
+    margin-top: 24px;
+    width: 676px;
+
+
+}
+
+.banner-form {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+
+    gap: 24px;
+    background: rgba(255, 255, 255, 0.30);
+    padding: 310px 185px 106px 185px;
+    border: none;
+
+}
+
+form {
+
+
+    display: flex;
+    justify-content: space-between;
+
+
+
+}
+
+form {
+    color: rgba(19, 19, 24, 0.50);
+    
+    flex-shrink: 0;
+   
+    font-size: 1rem;
+    font-weight: 400;
+    gap: 24px;
+    align-items: flex-start;
+    border-radius: 8px;
+  
+}
+
+.btn-primary {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 700;
+
+}
+@media screen and (max-width: 576px) {
+    .nav-title{
+        flex-direction: column;
+    }
+    .banner-pic{
+        margin-top: 20px;
+        width: 100%;
+    }
+    .banner-form{
+        flex-direction: column;
+    }
+
 }
